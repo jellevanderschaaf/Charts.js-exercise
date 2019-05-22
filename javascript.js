@@ -2,7 +2,7 @@
 let firstChart = document.getElementById('firstChart').getContext('2d');
 
 let barChart = new Chart(firstChart, {
-    type: 'bar',
+    type: 'pie',
     data: {
         labels:['Amsterdam', 'Rotterdam', 'Den Haag', 'Utrecht', 'Eindhoven', 'Tilburg', 'Almere', 'Groningen' ],
         datasets: [{
@@ -27,7 +27,7 @@ let barChart = new Chart(firstChart, {
             fontSize: 15,
         },
         legend: {
-            display: false,
+            display: true,
         }
     }
 });
