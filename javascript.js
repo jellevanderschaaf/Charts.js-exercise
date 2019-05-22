@@ -24,7 +24,10 @@ let barChart = new Chart(firstChart, {
         title: {
             display: true,
             text: 'Largest cities in the Netherlands',
-            fontSize: 20,
+            fontSize: 15,
+        },
+        legend: {
+            display: false,
         }
     }
 });
