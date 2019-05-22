@@ -16,8 +16,8 @@ let barChart = new Chart(firstChart, {
                 215.946,
                 205.058,
                 203.954
-            ]
+            ],
+            backgroundColor: ['blue', 'red', 'green', 'yellow', 'orange', 'purple', 'pink', 'grey']
         }],
-
     },
 });
