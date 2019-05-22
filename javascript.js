@@ -20,4 +20,11 @@ let barChart = new Chart(firstChart, {
             backgroundColor: ['blue', 'red', 'green', 'yellow', 'orange', 'purple', 'pink', 'grey']
         }],
     },
+    options: {
+        title: {
+            display: true,
+            text: 'Largest cities in the Netherlands',
+            fontSize: 20,
+        }
+    }
 });
